@@ -1,0 +1,45 @@
+$('#porjects-carousel').owlCarousel({
+    loop:true,
+    smartSpeed:1000,
+    margin:24,
+    dots:false,
+    nav:false,
+    autoplay:false,
+autoplayTimeout:2000,
+autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+
+// reviews cousel 
+
+$('#reviews-carousel').owlCarousel({
+    loop:true,
+    smartSpeed:1000,
+    margin:24,
+    dots:true,
+    nav:false,
+    autoplay:false,
+autoplayTimeout:2000,
+autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
+        }
+    }
+})
